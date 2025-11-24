@@ -2,4 +2,4 @@
 
 Feel free to use it and happy studying! c:
 
-🔗 [Link to use](link)
+🔗 [Link to use](https://varmundt.github.io/study-timer/)
