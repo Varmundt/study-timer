@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23000' width='100' height='100'/><circle cx='50' cy='50' r='35' fill='none' stroke='%23fff' stroke-width='4'/><line x1='50' y1='50' x2='50' y2='25' stroke='%23fff' stroke-width='3' stroke-linecap='round'/><line x1='50' y1='50' x2='65' y2='50' stroke='%23fff' stroke-width='3' stroke-linecap='round'/><circle cx='50' cy='50' r='3' fill='%23fff'/></svg>" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <title>Study Timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-display" id="display">00:00:00</div>
+        
+        <div class="controls">
+            <div class="input-group">
+                <label>Horas</label>
+                <input type="number" id="hours" min="0" max="23" value="0">
+            </div>
+            <div class="input-group">
+                <label>Minutos</label>
+                <input type="number" id="minutes" min="0" max="59" value="0">
+            </div>
+            <div class="input-group">
+                <label>Segundos</label>
+                <input type="number" id="seconds" min="0" max="59" value="0">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="startBtn">Iniciar</button>
+            <button id="pauseBtn" class="stop">Pausar</button>
+            <button id="resetBtn" class="stop">Resetar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
